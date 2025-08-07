@@ -1,0 +1,31 @@
+####################BOND
+##############CHURCH
+#####################FOOD
+## BREAKFAST
+Caffè Tripoli:
+  coords:
+    - 40.66678564081408
+    - 16.60613188399827
+  desc: Quintessential Italian coffee shop
+  time: 20
+## LUNCH
+## APERTIVO
+Crialoss:
+  coords:
+    - 40.66898747447953
+    - 16.609011353494466
+  desc: Apertivo Good reviews panoramic cave terrace, kitchen closes at 3:30
+  time: 90
+Terrazza Cavaliere:
+  coords:
+    - 40.66366830816862
+    - 16.609877955343613
+  desc: Apertivo good reviews good views
+  time: 90
+Zipa Cafe:
+  coords:
+    - 40.66372691637922
+    - 16.612083868836788
+  desc: Apertivo in a cave insta says its good
+  time: 90
+## DINNER

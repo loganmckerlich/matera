@@ -1,0 +1,25 @@
+Palombaro Lungo:
+  coords:
+    - 40.66690612564702
+    - 16.60649822312155
+  desc: The Palombara Lungo is a large underground water cistern beneath Piazza Vittorio Veneto, built starting in the 16th century. It holds 5 million liters of water, measures 50 meters long and 16 meters deep, and features waterproof terracotta-plastered rock walls. First explored in 1991, it is now accessible to visitors via suspended walkways.
+  time: 20
+Casa Grotta nei Sassi di Matera:
+  coords:
+    - 40.6642961815709
+    - 16.61243635611626
+  desc: >
+    This is basically an ancient neighborhood of cave dwellings that is modeled to look like what it wouldve been back in the day
+  time: 45
+Ponte Tibetano della Gravina:
+  coords:
+    - 40.665827118737155
+    - 16.614770428357463
+  desc: large rope bridge? Hike accross to see some old cave dwellings. This is part of a larger hike. Potentially hard to get to
+  time: 90
+Castello Tramontano:
+  coords:
+    - 40.66408842234402
+    - 16.60588092465864
+  desc: This massive castle on Lapillo's hill, was left unfinished after the unpopular Count Tramontano.
+  time: 20

@@ -1,0 +1,24 @@
+Church of Santa Maria de Idris:
+  coords:
+    - 40.664597526269844
+    - 16.611987874905065
+  desc: The church of Santa Maria de Idris in Matera, perched on the Monterrone cliff, is a scenic rock church with a 15th-century rebuilt tuff facade and bell gable. Its interior has lost its original layout but features a 17th-century tempera painting of the Madonna and Child and an image of St. Eustace, the city's patron saint. Connected by a tunnel to the rock crypt of San Giovanni in Monterrone, it houses frescoes from the 12th to 17th centuries depicting various saints and religious figures.
+  time: 30
+Church of San Pietro Caveoso:
+  coords:
+    - 40.6645680066317
+    - 16.61248179952181
+  desc: Free entry church
+  time: 30
+Church of Santa Lucia alle Malve:
+  coords:
+    - 40.66339691674157
+    - 16.612459997672342
+  desc: another church
+  time: 30
+Church of Saint Peter Barisano:
+  coords:
+    - 40.66890081069628
+    - 16.60924946883699
+  desc: main current church i think, has large room that used to be used to drain corpses
+  time: 15
