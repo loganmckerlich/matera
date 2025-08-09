@@ -1,4 +1,4 @@
-from map import base_map, get_sasso, get_spots
+from maps import base_map, get_sasso, get_spots
 from helps import *
 from streamlit_folium import st_folium
 import streamlit as st
@@ -27,16 +27,17 @@ sort_info = [
     {"header": "Visit", "items": []},
 ]
 
-a, b = st.columns([0.25, 0.75])
+
+new_order = sort_items(
+    sort_info,
+    direction="vertical",
+    multi_containers=True)
+ordered_spot_names = [x.split(": ")[-1] for x in new_order[1]["items"]]
+route_coords = [spots_info[spot]["coords"] for spot in ordered_spot_names]
+
+a, b = st.columns([0.5, 0.5])
 
 with a:
-    new_order = sort_items(
-        sort_info,
-        direction="vertical",
-        multi_containers=True)
-    ordered_spot_names = [x.split(": ")[-1] for x in new_order[1]["items"]]
-    route_coords = [spots_info[spot]["coords"] for spot in ordered_spot_names]
-with b:
     route_fg = folium.FeatureGroup("route")
     if len(route_coords) > 1:
         route = folium.PolyLine(
@@ -71,7 +72,8 @@ df = pd.DataFrame(
 )
 
 if len(df) > 0:
-    transit_df = add_transit_times_to_schedule(
-        df, ordered_spot_names, spots_info, transit_minutes_per_mile=60
-    )
-    st.dataframe(transit_df)
+    with b:
+        transit_df = add_transit_times_to_schedule(
+            df, ordered_spot_names, spots_info, transit_minutes_per_mile=60
+        )
+        st.dataframe(transit_df)
