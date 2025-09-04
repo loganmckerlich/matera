@@ -9,6 +9,17 @@ Caffè Tripoli:
   desc: Quintessential Italian coffee shop
   time: 20
 ## LUNCH
+Uacciardidd:
+  coords:
+    - 40.667029
+    - 16.6063265
+  desc: grab and go local dishes
+L'Antica Credenza:
+  coords:
+    - 40.665350
+    - 16.609268
+  desc: grab and go meats n cheese type stuff
+  time: 30
 ## APERTIVO
 Crialoss:
   coords:
@@ -26,6 +37,13 @@ Zipa Cafe:
   coords:
     - 40.66372691637922
     - 16.612083868836788
-  desc: Apertivo in a cave insta says its good
+  desc: Apertivo in a cave insta says its good - this is primary option
   time: 90
 ## DINNER
+Da Mo:
+  coords:
+    - 40.66249136415157
+    - 16.611372952440046
+  desc: upscale dining in a cool interior
+  time: 90
+  at: 19:30
